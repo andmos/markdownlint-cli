@@ -1,4 +1,6 @@
-# markdownlint-cli [![Travis CI Build Status][travis-badge]][travis-url] [![AppVeyor CI Build Status][appveyor-badge]][appveyor-url]
+# markdownlint-cli
+
+[![GitHub Actions Build Status][actions-badge]][actions-url]
 
 > Command Line Interface for [MarkdownLint][markdownlint]
 
@@ -6,6 +8,12 @@
 
 ```bash
 npm install -g markdownlint-cli
+```
+
+On macOS you can install via [Homebrew](https://brew.sh/):
+
+```bash
+brew install markdownlint-cli
 ```
 
 ## Usage
@@ -111,16 +119,13 @@ A JS configuration file may internally `require` one or more npm packages as a w
 
 MIT © Igor Shubovych
 
-[travis-badge]: https://img.shields.io/travis/igorshubovych/markdownlint-cli/master.svg?label=linux
-[travis-url]: https://travis-ci.org/igorshubovych/markdownlint-cli
-
-[appveyor-badge]: https://img.shields.io/appveyor/ci/igorshubovych/markdownlint-cli/master.svg?label=windows
-[appveyor-url]: https://ci.appveyor.com/project/igorshubovych/markdownlint-cli
+[actions-badge]: https://github.com/igorshubovych/markdownlint-cli/workflows/CI/badge.svg?branch=master
+[actions-url]: https://github.com/igorshubovych/markdownlint-cli/actions?query=workflow%3ACI
 
 [markdownlint]: https://github.com/DavidAnson/markdownlint
-[rules]: https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md
+[rules]: https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
 [config]: https://github.com/DavidAnson/markdownlint#optionsconfig
-[style-folder]: https://github.com/DavidAnson/markdownlint/tree/master/style
+[style-folder]: https://github.com/DavidAnson/markdownlint/tree/main/style
 [test-config]: https://github.com/igorshubovych/markdownlint-cli/blob/master/test/test-config.json
 [rc-standards]: https://www.npmjs.com/package/rc#standards
 [glob]: https://github.com/isaacs/node-glob
